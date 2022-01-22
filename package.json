@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "serverless": "^1.74.1",
-    "serverless-rust": "^0.3.8"
+    "serverless": "^2.72.1",
+    "serverless-rust": "https://github.com/softprops/serverless-rust#d6686a6d1d3e6316afaf51c85002cf1cc9167292"
   }
 }

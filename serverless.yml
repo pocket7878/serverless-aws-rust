@@ -95,3 +95,8 @@ functions:
 #     NewOutput:
 #       Description: "Description for the output"
 #       Value: "Some output value"
+# Use custom lambda-rust docker image to support latest RUst stable versions
+custom:
+  rust:
+    dockerTag: '0.4.0-rust-stable'
+    dockerImage: 'rustserverless/lambda-rust'
